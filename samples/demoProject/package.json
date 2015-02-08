@@ -1,0 +1,38 @@
+{
+  "name": "crossword",
+  "description": "",
+  "readme": "",
+  "repository": "",
+  "version": "0.0.0",
+  "devDependencies": {
+    "bower": "*",
+    "browserify": "*",
+    "gulp": "^3.8.10",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-download": "*",
+    "gulp-if": "*",
+    "gulp-jshint": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-processhtml": "*",
+    "gulp-rename": "*",
+    "gulp-rimraf": "*",
+    "gulp-streamify": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "*",
+    "run-sequence": "^1.0.2",
+    "tiny-lr": "*",
+    "vinyl-source-stream": "*",
+    "watchify": "*"
+  },
+  "scripts": {
+    "post-install": "node ./node_modules/bower/bin/bower install",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build"
+  },
+  "dependencies": {
+    "xml": "git+https://github.com/bdunford/xml.git"
+  }
+}
