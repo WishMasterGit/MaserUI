@@ -3,6 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>Maser UI Demo</title>
+    <script type="text/javascript">
+        var w = window.innerWidth * window.devicePixelRatio;
+        var h = window.innerHeight * window.devicePixelRatio;
+        var lScale = Math.floor(10 / window.devicePixelRatio) / 10;
+        if(w===undefined || w===null || h===undefined || h===null || lScale===undefined || lScale===null ){
+            lScale = 1;
+        }
+        document.write('<meta name="viewport" content="initial-scale=' + lScale + ' user-scalable=no,minimal-ui=1">');
+    </script>
 
     <!-- build:css css/main.min.css -->
     <link rel="stylesheet" href="css/main.css">
