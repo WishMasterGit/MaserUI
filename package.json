@@ -1,5 +1,6 @@
 {
   "name": "MaserUI",
+  "main": "./build/maserUI",
   "version": "0.0.1",
   "repository": {
     "type": "git",
