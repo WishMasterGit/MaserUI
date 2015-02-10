@@ -3,6 +3,7 @@ phaser js engine based ui system, totally based on PIXI and Phaser systems. Has 
 
 Install:
 1. npm install git+https://github.com/WishMasterGit/MaserUI.git --save
+
 2. Than in code when you want to use it simply write var MaserUI = require("MaserUI"); to get access to the namespace
 
 Demo: http://wishmastergit.github.io/MaserUI/
